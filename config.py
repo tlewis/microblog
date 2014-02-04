@@ -28,4 +28,4 @@ MAIL_USERNAME = None
 MAIL_PASSWORD = None
 
 # Administrator list
-ADMINS = ['tristanlewis@gmail.com']
+ADMINS = ['someone@gemail.com']
