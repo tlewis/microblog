@@ -1,0 +1,9 @@
+# Generated files
+*.py[co]
+*.db
+*.swp
+
+# files specific to this instance
+db_repository
+tmp
+flask
