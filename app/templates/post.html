@@ -1,7 +1,7 @@
 <table cellpadding="3">
 	<tr valign="top">
 		<td rowspan="2"><img src="{{post.author.avatar(50)}}"></td>
-		<td><i>{{post.author.nickname}} says</i></td>
+		<td><i><a href="{{url_for('user', nickname = post.author.nickname)}}">{{post.author.nickname}}</a> says</i></td>
 	</tr>
 	<tr valign="top">
 		<td>{{post.body}}</td>
