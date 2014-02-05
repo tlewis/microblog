@@ -27,5 +27,9 @@ MAIL_PORT = 25
 MAIL_USERNAME = None
 MAIL_PASSWORD = None
 
+# Whoosh
+WHOOSH_BASE = os.path.join(basedir, 'search.db')
+MAX_SEARCH_RESULTS = 50
+
 # Administrator list
-ADMINS = ['someone@gemail.com']
+ADMINS = ['someone@email.com']
