@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -33,3 +34,9 @@ MAX_SEARCH_RESULTS = 50
 
 # Administrator list
 ADMINS = ['someone@email.com']
+
+# available languages
+LANGUAGES = {
+	'en': 'English',
+	'es': 'Español'
+}

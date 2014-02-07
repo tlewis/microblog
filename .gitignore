@@ -2,6 +2,7 @@
 *.py[co]
 *.db
 *.swp
+*.mo
 .DS_Store
 
 # files specific to this instance
