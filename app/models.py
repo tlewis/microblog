@@ -28,7 +28,7 @@ class User(db.Model):
 
 	@staticmethod
 	def make_valid_nickname(nickname):
-		return re.sub('[^a-zA-Z0-9_\.', '', nickname)
+		return re.sub('[^a-zA-Z0-9_\.]', '', nickname)
 
 	def is_authenticated(self):
 		return True
